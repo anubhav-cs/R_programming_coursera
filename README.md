@@ -1,2 +1,2 @@
 # R_programming_coursera
-Repository to store R programming assignments
+The repository contains the code written as part of the R programming course at coursera.
