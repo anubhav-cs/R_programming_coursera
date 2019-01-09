@@ -11,8 +11,10 @@
  4. Ranking hospitals in all states
 
 ## How to run the code
- 1. Open R, and set the working directory as the project folder
+ 1. Open R and set the working directory as the project folder
  2. Execute the following.
+ 
         source(hospitalevalfunctions.R)
         file <- "rprog_data_ProgAssignment3-data/outcome-of-care-measures.csv"
+        
  3. call the functions written in the file hospitalevalfunctions.R
