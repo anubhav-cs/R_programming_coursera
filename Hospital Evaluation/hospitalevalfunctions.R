@@ -104,6 +104,7 @@ rankhospital    <-  function(file, state, outcome, num = "best") {
     #       state(charater vector)      -   a state within USA(abbreviated)
     #       outcome(charater vector)    -   "heart attack"/"heart failure"/
     #                                       "pneumonia"
+    #       num(integer value)          -   rank of the hospital
     # Returns:
     #       Hospital(character vector)  - hospital with lowest mortality rate
     #####
@@ -170,9 +171,9 @@ rankall <-  function(file, outcome, num = "best") {
     #####
     # Args:
     #       file(character vector)      -   file path
-    #       state(charater vector)      -   a state within USA(abbreviated)
     #       outcome(charater vector)    -   "heart attack"/"heart failure"/
     #                                       "pneumonia"
+    #       num (integer value)         -   rank of hospital in the state
     # Returns:
     #       Hospital(character vector)  - hospital with lowest mortality rate
     #####
